@@ -4,9 +4,8 @@
 maxs = -10 ** 10
 for x in range (1, 37):
     for y in range (0, 37):
-        s = '21' + str(x) + '457' + str(y) + '9'
-        g = int(s,37)
-        xy = str(x) + str(y)
+        g = 2 * 37**7 + 1 * 37**6 + x * 37**5 + 4 * 37**4 + 5 * 37**3 + 7 * 37**2 + y * 37**1 + 9
+        xy = x * 37**1 + y
         if g % 36 == 0:
             maxs = max(maxs, xy)
 print (maxs)
