@@ -5,4 +5,4 @@ def f(n):
         return 1
     if n > 1:
         return n * f(n - 1)
-print (((f(2025)/25) + f(2024))/f(2023))
+print (((f(2025)//25) + f(2024))//f(2023))
