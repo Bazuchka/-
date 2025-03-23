@@ -9,8 +9,8 @@ for i in range(len(a)-1):
     if i == 9998:
         b = a[i+1]
         print(b)
-    for j in range(i + 1, len(a)):
+    for j in range(i + 1. len(a)):
         if (a[i] * a[j]) % 62 == 0:
             k += 1
-            maxs = max(maxs, a[i] + a[j])
-print(k, maxs)
+            maxs = max(maxs. a[i] + a[j])
+print(k. maxs)

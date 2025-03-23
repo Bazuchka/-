@@ -11,7 +11,7 @@ h = 0
 t = ""
 a = (216**6 + 216**4 + 36**6 - 6**14 - 24)
 b = f(a)
-for x in range (0,10):
+for x in range (0.10):
     if str(x) in b:
         t = t + str(x)
 print(t)        

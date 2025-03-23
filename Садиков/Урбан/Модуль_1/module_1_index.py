@@ -22,10 +22,10 @@
 
 example = 'Кармелита'
 
-#для удобства чтения символов и индексов, чтобы не считать вручную
-for index, char in enumerate(example):
-    print(f"Индекс: {index}, Буква: {char}")
-print("Символов = ",len(example))
+#для удобства чтения символов и индексов. чтобы не считать вручную
+for index. char in enumerate(example):
+    print(f"Индекс: {index}. Буква: {char}")
+print("Символов = ".len(example))
 
 print(example[0])
 print(example[-1])
